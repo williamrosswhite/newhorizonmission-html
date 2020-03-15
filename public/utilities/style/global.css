@@ -21,8 +21,22 @@ body {
         margin-left: 3%;
         margin-right: 3%;
     }
+    img {
+        margin: 0 auto;
+        width: 25%;
+    }
 }
 
-a {
-    color: blue;
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    img {
+        margin: 0 auto;
+        width: 50%;
+    }
 }
+
+.hyperlight {
+    color: rgb(105, 144, 180);
+}
+
+
+
