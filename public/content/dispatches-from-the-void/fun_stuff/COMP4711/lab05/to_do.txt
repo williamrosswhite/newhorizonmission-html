@@ -1,0 +1,9 @@
+implement a delete this node function
+implement search functionality
+
+
+BIG QUESTIONS
+
+how do i properly route things instead of having everything in the main server file
+how do i more elegantly send the reference name along with the button press?
+redirect

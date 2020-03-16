@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <title>Planet Express</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    
+    @font-face {font-family: 'futurama-font'; src: url('fonts/fr-bold.ttf')}
+    
+    body {background-color: whitesmoke; font-family: futurama-font}
+    
+    
+    @media all and (min-width:1280px) {
+      
+    h1 {text-align: left; background-color: white; color: slategrey; border-top-color: gainsboro; border-top-style: solid; border-bottom-style: solid; border-bottom-color: gainsboro; padding-top: .25em; padding-bottom: .25em}
+    
+    h2 {padding-left: 1.5em; text-align: center}
+    h3 {text-align: center; font-size: 350%}
+    h4 {text-align: center; font-size: 200%}
+    
+    #h1text2 {display: none}
+    .h1textright {float: right; font-size: 50%; padding-top: .75em}
+    .drtext {float: right; max-width: 60%; font-size: 70%;}
+    
+    .img1 {border-radius:10%; float:left; shape-outside: circle(); margin-right: 3%; margin-bottom: 1%; width: 5%; height: auto; min-width: 150px;}
+    
+    .img2 {border-radius:100%; border: 0; shape-outside: circle(); margin-right: 5%; margin-bottom: 1%; width: 5%; height: auto; min-width: 150px;}
+    
+    .img3 {border-width:0.5em; border-style: solid; border-color: white; margin: 0.5em; max-width: 100%}
+    
+    .img4 {float: left; max-width: 30%; border-width:0.5em; border-style: solid; border-color: white; height: auto}
+       
+    #divleft{float: left; width: 60%; height: auto; column-count: 2; text-align: left;}
+    
+    #divright {float: right; max-width: 36%; text-align: left}
+      
+    .oblivion1280 {display: none}
+    .oblivion400 {display: none}
+    
+    }
+    
+    @media all and (min-width: 800px) and (max-width: 1280px){
+
+    h1 {text-align: left; background-color: white; color: slategrey; border-top-color: gainsboro; border-top-style: solid; border-bottom-style: solid; border-bottom-color: gainsboro; padding-top: .25em; padding-bottom: .25em}
+    
+    h2 {padding-left: 1.5em; text-align: center}
+    h3 {text-align: center; font-size: 350%}
+    h4 {text-align: center; font-size: 200%}
+    h5 {text-align: center}
+    h6 {text-align: center; font-size: 200%; color: slategray; padding-top: 0%}
+    
+    .h1textright {float: right; font-size: 80%; padding-top: .25em}
+    .h1textleft {font-size: 80%}
+    .drtext {float: right; max-width: 60%; font-size: 170%}
+    .p2 {max-height: 2em}
+    
+    .img1 {border-radius:10%; shape-outside: circle(); margin-right: auto; margin-bottom: 1%; width: 5%; height: auto; min-width: 150px; display: block; margin-left: auto}
+    
+    .img2 {border-radius:100%; border: 0; shape-outside: circle(); margin-bottom: 1%; width: 5%; height: auto; min-width: 150px;}
+    
+    .img3 {border-width:0.5em; border-style: solid; border-color: white; margin: 0.5em; max-width: 100%}
+    
+    .img4 {float: left; max-width: 30%; border-width:0.5em; border-style: solid; border-color: white; height: auto}
+       
+    #divleft{height: auto; column-count: 2; text-align: left;}
+      
+    .oblivion800 {display: none}
+    .oblivion400 {display: none}
+ 
+    }
+    
+    @media all and (min-width: 0px) and (max-width: 800px){    
+      
+    h1 {text-align: left; background-color: white; color: slategrey; border-top-color: gainsboro; border-top-style: solid; border-bottom-style: solid; border-bottom-color: gainsboro; padding-top: .25em; padding-bottom: .25em}
+    
+    h2 {padding-left: 1.5em; text-align: center}
+    h3 {text-align: center; font-size: 350%}
+    h4 {text-align: center; font-size: 200%}
+    h5 {text-align: center; color: slategray; font-size: 100%}
+    h6 {text-align: center; font-size: 250%; color: slategray; margin-top: 1em; margin-bottom: 0}
+    h7 {text-align: center; color: slategray}
+    
+    .h1textright {float: right}
+    .drtext {float: right; max-width: 60%; font-size: 100%}
+    .p2 {max-height: 2em}
+    
+    .img1 {border-radius:10%; shape-outside: circle(); width: 5%; height: auto; min-width: 150px; display: block; margin: auto}
+    
+    .img2 {border-radius:100%; border: 0; shape-outside: circle(); margin-right: 8%; margin-bottom: 1%; width: 5%; height: auto; min-width: 150px;}
+    
+    .img3 {border-width:0.5em; border-style: solid; border-color: white; margin: 0.5em; max-width: 100%}
+    
+    .img4 {float: left; max-width: 30%; border-width:0.5em; border-style: solid; border-color: white; height: auto}
+       
+    #divleft{height: auto}
+    
+    .oblivion800 {display: none}
+    .oblivion1280 {display: none}
+    
+    }
+    
+  </style>
+</head>
+
+<body>
+    <div>
+        <a href="../COMP1536_landing_page.html">COMP1536 Landing Page</a>
+      </div>
+  <aside>
+    <div class=oblivion1280>
+      <div class=p2><img class=img1 src="images/planet-express-logo.jpg" alt="Planet Express logo">
+      </div>
+      <h1><span class=h1textleft>&nbsp; Tracking &nbsp; Specials </span><span class=h1textright>Casualties &nbsp; Staff &nbsp; &nbsp;        </span></h1>
+        <h6>PLANET EXPRESS</h6>
+        <h3>PLANET EXPRESS GALACTIC DELIVERY</h3>
+        <h4>New New York, Earth</h4>
+    </div>
+  </aside>
+  
+  <aside>
+    <div class=oblivion800>
+      <img class=img1 src="images/planet-express-logo.jpg" alt="Planet Express logo"><br>
+        <h1>Planet Express<span class=h1textright>Tracking &nbsp; Specials &nbsp; Casualties &nbsp; Staff &nbsp;</span></h1><br><br><br><br>
+        <h3>PLANET EXPRESS GALACTIC DELIVERY</h3>
+        <h4>New New York, Earth</h4>
+    </div>
+  </aside>
+  
+  <aside>
+    <div class=oblivion400>
+      <div class=p2>
+        <img class=img1 src="images/planet-express-logo.jpg" alt="Planet Express logo"><br>
+      </div>
+      <h1>
+        <span class=h1textleft> &nbsp; &nbsp; </span><span class=h1textright> &nbsp; &nbsp;</span>
+      </h1>
+      <h6>PLANET EXPRESS<br></h6>
+        <h5>Tracking &nbsp; Specials &nbsp; Casualties &nbsp; Staff</h5>
+      <h3>PLANET EXPRESS GALACTIC DELIVERY</h3>
+      <h4>New New York, Earth</h4>
+    </div>
+  </aside>
+  
+  <div class=oblivion1280>
+    <h2>
+      <img class=img2 src="images/city.png" alt="City">
+      <img class=img2 src="images/system.png" alt="System">
+      <img class=img2 src="images/planet.png" alt="Planet">
+      <img class=img2 src="images/galaxy.png" alt="Galaxy"></h2><br><br><br>
+  </div>
+  
+  <div class=oblivion800>
+    <h2>
+      <img class=img2 src="images/city.png" alt="City">
+      <img class=img2 src="images/system.png" alt="System">
+      <img class=img2 src="images/planet.png" alt="Planet">
+      <img class=img2 src="images/galaxy.png" alt="Galaxy"></h2><br><br><br>
+    </div>
+    
+    <div class=oblivion400>
+    <h2>
+      <img class=img2 src="images/city.png" alt="City">
+      <img class=img2 src="images/system.png" alt="System"></h2>
+    <h2>
+      <img class=img2 src="images/planet.png" alt="Planet">
+      <img class=img2 src="images/galaxy.png" alt="Galaxy"></h2><br><br><br>
+    </div>
+  
+  <div id=divleft>
+    <img class=img3 src="images/planet%20express%20building.jpg" alt= "Planet Express Building"><br><img class=img3 src="images/planet%20express%20ship.jpg" alt="Planet Express Ship">
+    <br><img class=img3 src="images/planet%20express%20crew.png" alt="Planet Express Crew">
+    <br><img class=img3 src="images/futurama%20galaxy.jpg" alt="God Galaxy">
+  </div>
+    
+  <div id=divright>
+    <p>
+      <img class=img4 src="images/hypnotoad.jpg" alt="ALL HAIL THE HYPNOTOAD"><span class=drtext>Some packages may be delayed due to the incident with the hypnotoad.  We apologize for the inconvenience.</span></p><br><br><br><br><br><span class=oblivion1280><br><br><br><br><br><br></span><span class=oblivion800></span><span class=oblivion400><br><br></span>
+    <p>
+      <img class=img4 src="images/vergon%206.jpg" alt="The remains of Vergon 6"><span class=drtext>We regret our unfortuanate involvement with the incident at Vergon 6.  Those responsible have been promoted.</span></p><br><br><br><br><br><br><br><span class=oblivion1280><br><br><br><br><br><br><br></span><span class=oblivion400><br><br></span>
+    <p>
+      <img class=img4 src="images/bees.jpg" alt="The bees knees"><span class=drtext>We continue to regret our involvement wiht the bee incident.  A building sized can of Raid has been deployed.</span></p><br><br><br><br><br><span class=oblivion1280><br><br><br><br><br><br></span><span class=oblivion400><br><br></span>
+    <p>
+      <img class=img4 src="images/scruffy.jpg" alt="Scruffy dies as Scruffy lived"><span class=drtext>The office pool regarding what incriminating information Scruffy has on the Professor will close Thursday</span></p>
+  </div>
+
+
+
+</body>
+<footer>  </footer>
+</html>

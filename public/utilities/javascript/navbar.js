@@ -13,12 +13,12 @@ const header_content = `
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">About Ross</a>
                 <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item text-center" href="/content/about-ross/ross-in-short.html">Ross in Short</a>
-                    <a class="dropdown-item text-center" href="/content/about-ross/ross-as-writer.html">Ross as Writer</a>
-                    <a class="dropdown-item text-center" href="/content/about-ross/ross-as-developer.html">Ross as Developer</a>
+                    <a class="dropdown-item text-center" href="/content/about-ross/about.html">About Me</a>
+                    <a class="dropdown-item text-center" href="/content/about-ross/writer.html">Writer</a>
+                    <a class="dropdown-item text-center" href="/content/about-ross/developer.html">Developer</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item text-center" href="/content/about-ross/contact-ross.html">Contact Ross</a>
-                    <a class="dropdown-item text-center" href="/content/about-ross/support-ross.html">Support Ross</a>
+                    <a class="dropdown-item text-center" href="/content/about-ross/contact.html">Contact</a>
+                    <a class="dropdown-item text-center" href="/content/about-ross/support.html">Support</a>
                 </div>
             </li>
             <li class="nav-item dropdown justify-content-center">

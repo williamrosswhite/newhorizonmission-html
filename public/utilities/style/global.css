@@ -1,9 +1,19 @@
+@font-face {
+    font-family: 'futurama-font';
+    src: url('/utilities/fonts/Trek_Movie_1.ttf')
+}
+
+h1 {
+    font-family: futurama-font
+}
+
 body {
     background-image: url("../images/ultra-violet-deep-field.jpg");
     text-align: center;
+    word-wrap: break-word;
 }
 
-.display-4 {
+.display-3 {
     size: 5pt;
 }
 
@@ -21,14 +31,14 @@ body {
         margin-left: 3%;
         margin-right: 3%;
     }
-    img {
+    .title_image {
         margin: 0 auto;
-        width: 25%;
+        width: 40%;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
-    img {
+    .title_image {
         margin: 0 auto;
         width: 50%;
     }
@@ -49,6 +59,3 @@ body {
 .hyperlight {
     color: rgb(105, 144, 180);
 }
-
-
-
