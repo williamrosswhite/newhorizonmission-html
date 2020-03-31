@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "roboto";
+    src: url('../fonts/roboto-condensed.ttf');
+}        
+
+body {
+    text-align: center;
+    font-family: "roboto";
+}
+
+
+p {
+    text-align: left;
+    margin-top: 0;
+    /* font-family: 'roboto'; */
+}
+
+h1 {
+    text-align: left;
+    margin-left: 5%;
+    /* font-family: 'roboto'; */
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 0;
+    /* font-family: 'roboto'; */
+}
+
+input {
+    width: 90%;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding-right: 3%;
+}
+
+.directory, .artist {
+    border-style: solid;
+    border-color: grey;
+}
+
+.artist {
+    width: 80%;
+    margin-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.artist_app {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Document - Rebuilt with JavaScript</title>
+    <meta charset="utf-8"/>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Hind);
+
+      body {
+        font-family: 'Hind', sans-serif;
+      }
+
+      .hilight {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="content">
+
+    </div>
+
+    <script>
+        /*<![CDATA[*/
+
+      // http://www.howtocreate.co.uk/tutorials/javascript/domstructure
+      // http://www.w3schools.com/jsref/dom_obj_document.asp
+      // http://www.javascriptkit.com/domref
+      // http://www.howtocreate.co.uk/tutorials/javascript/dombasics
+        function editDoc() {
+
+            // new head, new body elements
+            var head = document.createElement("head");
+            var body = document.createElement("body");
+            var div = document.createElement("div");
+            var p1 = document.createElement("p");
+            var p2 = document.createElement("p");
+            p2.setAttribute("id", "p2");
+            p1.setAttribute("class", "hilight");
+            p1.innerHTML = "Document rebuilt!"
+            p2.innerHTML = "realitybites"
+            // replace document head, body, add div, p
+            document.head = head;
+            body.id = "a123";
+            document.body = body;
+            body.appendChild(div);
+            div.appendChild(p1);
+            div.appendChild(p2);
+
+
+            // could have done this above but let's access the elements by id
+            var para = document.getElementById("p2");
+            para.style.color = "#015345";
+            para.style.border = "black solid 1px";
+            para.style.padding = "2px";
+            para.style.paddingLeft = "12px";
+        }
+        editDoc();
+
+        /*]]>*/
+    </script>
+
+  </body>
+</html>

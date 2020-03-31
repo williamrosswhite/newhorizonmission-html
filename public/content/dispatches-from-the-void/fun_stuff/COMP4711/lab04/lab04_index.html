@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Ross White COMP 4711 Lab 3 Home Page
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/lab04_CSS.css">
+    <script src="javascript/lab04_JS.js" defer></script>
+</head>
+
+<body onload="initial_hide(), load_existing_artists()">
+    <!--deliberte easter egg-->
+    <p style="display: none">https://media-cdn.tripadvisor.com/media/photo-s/0d/91/a6/3d/20161105-105504-largejpg.jpg
+    </p>
+    <!--deliberte easter egg-->
+    <div id="artist_app_id" class="artist_app_class">
+
+        <div class="directory" id="directory">
+            <h1>Artist Directory</h1>
+            <input type="text" id="artist_input">
+            <button id="search_artist_btn" onclick="search_artist()">Search</button>
+            <button id="add_artist_btn" onclick="hide_add_artist_div()">Add</button>
+            <br><br>
+        </div>
+
+        <form id="new_artist_div_id" class="new_artist_div_class" onsubmit="add_artist()">
+            <input type="text" id="new_artist_name_field" required="true" maxlength="40" placeholder="Artist Name"
+                class="artist_lookup_fields">
+            <input type="text" id="new_artist_about_field" required="true" maxlength="40" placeholder="About artist"
+                class="artist_lookup_fields">
+            <input type="text" id="new_artist_img_field" required="true" placeholder="Image url"
+                class="artist_lookup_fields">
+            <br>
+            <input type="submit" id="add_btn" value="Add"></input>
+        </form>
+
+        <div id="saved_artists_div">
+            <!--deliberte easter egg-->
+            <div class="artist" style="display: none">
+                <button class="delete_btn" onclick="delete_artist(this)">Delete</button>
+                <img src="images/dennis.jpg">
+                <h2>Dennis</h2>
+                <p>Glenn Howerton</p>
+            </div>
+            <!--deliberte easter egg-->
+            <div class="artist" style="display: none">
+                <button class="delete_btn" onclick="delete_artist(this)">Delete</button>
+                <img src="images/mac.jpg">
+                <h2>Mac</h2>
+                <p>Rob McElhenney</p>
+            </div>
+            <!--deliberte easter egg-->
+            <div class="artist" style="display: none">
+                <button class="delete_btn" onclick="delete_artist(this)">Delete</button>
+                <img src="images/charlie.jpg">
+                <h2>Charlie</h2>
+                <p>Charlie Kelly</p>
+            </div>
+            <!--deliberte easter egg-->
+            <div class="artist" style="display: none">
+                <button class="delete_btn" onclick="delete_artist(this)">Delete</button>
+                <img src="images/dee.jpg">
+                <h2>Mac</h2>
+                <p>Caitlin Olsen</p>
+            </div>
+            <!--deliberte easter egg-->
+            <div class="artist" style="display: none">
+                <button class="delete_btn" onclick="delete_artist(this)">Delete</button>
+                <img src="images/frank.jpg">
+                <h2>Frank</h2>
+                <p>Danny DeVito</p>
+            </div>
+            <!--deliberte easter egg-->
+        </div>
+    </div>
+
+
+    <div>
+        <button id="delete_all_btn" onclick="clearLocal()">Delete All Artists</button>
+    </div>
+
+</body>
+
+</html>
