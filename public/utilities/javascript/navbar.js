@@ -13,12 +13,12 @@ const header_content = `
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">About Ross</a>
                 <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item text-center" href="/content/about-ross/about.html">About Me</a>
-                    <a class="dropdown-item text-center" href="/content/about-ross/writer.html">Writer</a>
-                    <a class="dropdown-item text-center" href="/content/about-ross/developer.html">Developer</a>
+                    <a class="dropdown-item text-center" href="/content/about-ross/about.html">Ross in Short</a>
+                    <a class="dropdown-item text-center" href="/content/about-ross/writer.html">Ross as Writer</a>
+                    <a class="dropdown-item text-center" href="/content/about-ross/developer.html">Ross as Developer</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item text-center" href="/content/about-ross/contact.html">Contact</a>
-                    <a class="dropdown-item text-center" href="/content/about-ross/support.html">Support</a>
+                    <a class="dropdown-item text-center" href="/content/about-ross/contact.html">Contact Ross</a>
+                    <a class="dropdown-item text-center" href="/content/about-ross/support.html">Support Ross</a>
                 </div>
             </li>
             <li class="nav-item dropdown justify-content-center">
@@ -26,8 +26,8 @@ const header_content = `
                     aria-haspopup="true" aria-expanded="false">New Horizons
                 </a>
                 <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/content/new-horizons/about-new-horizons.html">About New Horizons</a>
-                    <a class="dropdown-item" href="/content/new-horizons/read-new-horizons.html">Read New Horizons</a>
+                    <a class="dropdown-item" href="/content/new-horizons/about.html">About New Horizons</a>
+                    <a class="dropdown-item" href="/content/new-horizons/read.html">Read New Horizons</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="/content/new-horizons/01-launch.html">Book One: Launch</a>
                     <a class="dropdown-item" href="/content/new-horizons/02-midway.html">Book Two: Midway</a>
@@ -42,12 +42,10 @@ const header_content = `
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Chasing Stars</a>
                 <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/content/chasing-stars/about-chasing-stars.html">About Chasing Stars</a>
-                    <a class="dropdown-item" href="/content/chasing-stars/read-chasing-stars.html">Read Chasing Stars</a>
+                    <a class="dropdown-item" href="/content/chasing-stars/about.html">About Chasing Stars</a>
+                    <a class="dropdown-item" href="/content/chasing-stars/read.html">Read Chasing Stars</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="/content/chasing-stars/01-launch.html">Book One: Launch</a>
-                    <a class="dropdown-item" href="/content/chasing-stars/02-midway.html">Book Two: Midway</a>
-                    <a class="dropdown-item" href="/content/chasing-stars/03-reunion.html">Book Three: Arrival</a>
                 </div>
             </li>
             <li class="nav-item dropdown">

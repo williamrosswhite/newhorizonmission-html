@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'futurama-font';
-    src: url('/utilities/fonts/Trek_Movie_1.ttf')
+    src: url('../fonts/Trek_Movie_1.ttf')
 }
 
 h1 {
@@ -13,7 +13,7 @@ body {
     word-wrap: break-word;
 }
 
-.display-3 {
+.display-4 {
     size: 5pt;
 }
 
@@ -25,15 +25,69 @@ body {
     margin-bottom: 3%;
 }
 
+.embeds {
+    text-align: center;
+}
+
+.embed_small {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.resume_small {
+    display: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.embed_large {
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.resume_large {
+    display: inline-block;
+}
+
 @media screen and (min-width: 1000px) {
     .jumbotron {
         margin-top: 1%;
         margin-left: 3%;
         margin-right: 3%;
+        margin-bottom: 3%;
+        padding: 1%;
     }
+
     .title_image {
-        margin: 0 auto;
+        margin-right: 3%;
         width: 40%;
+        float: left;
+    }
+
+    .float_right_large {
+        float: right;
+    }
+
+    .twitter_div {
+        width: 49%;
+        float: left;
+    }
+
+    .instagram_div {
+        width: 49%;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .resume_small {
+        display: inline-block;
+    }
+
+    .resume_large {
+        display: none;
     }
 }
 
@@ -58,4 +112,15 @@ body {
 
 .hyperlight {
     color: rgb(105, 144, 180);
+}
+
+.page-item {
+    color: red;
+}
+
+
+@media screen and (min-width: 1700px) {
+    .display-4 {
+        font-size: 750%;
+    }
 }
