@@ -1,0 +1,4 @@
+make image roll to left and text flow around at full screen size
+finish full depth of the for fun section
+fix margins for images and jumbotrons sitewide
+offer up reunion and contact
