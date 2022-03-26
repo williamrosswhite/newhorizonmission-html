@@ -40,16 +40,6 @@ const header_content = `
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Chasing Stars</a>
-                <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/content/chasing-stars/about.html">About Chasing Stars</a>
-                    <a class="dropdown-item" href="/content/chasing-stars/read.html">Read Chasing Stars</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/content/chasing-stars/01-launch.html">Book One: Launch</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Dispatches from the Void</a>
                 <div class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item text-center" href="/content/dispatches-from-the-void/updates-blog.html">Updates Blog</a>
