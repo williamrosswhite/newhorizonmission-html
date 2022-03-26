@@ -1,2 +1,2 @@
-# newhorizonmission-html
-My author home page
+# newhorizonmission
+My new professional website for my writing

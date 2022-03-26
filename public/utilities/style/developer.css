@@ -1,0 +1,38 @@
+.embeds {
+    text-align: center;
+}
+
+.embed_small {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.resume_small {
+    display: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.embed_large {
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.resume_large {
+    display: inline-block;
+}
+
+/*
+media queries
+*/
+
+@media screen and (max-width: 991px) {
+    .resume_small {
+        display: inline-block;
+    }
+    .resume_large {
+        display: none;
+    }
+}
