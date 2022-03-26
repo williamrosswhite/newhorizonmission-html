@@ -8,14 +8,12 @@
 .social_div {
     margin-left: 3%;
     margin-right: 3%;
-
 }
 
 @media screen and (min-width: 1000px) {
     .twitter_div {
         margin-top: 5%;
         width: 49%;
-        float: right;
     }
     
     .instagram_div {

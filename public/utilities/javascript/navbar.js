@@ -17,7 +17,6 @@ const header_content = `
                     <a class="dropdown-item text-center" href="/content/about-ross/writer.html">Ross as Writer</a>
                     <a class="dropdown-item text-center" href="/content/about-ross/developer.html">Ross as Developer</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item text-center" href="/content/about-ross/contact.html">Contact Ross</a>
                     <a class="dropdown-item text-center" href="/content/about-ross/support.html">Support Ross</a>
                 </div>
             </li>
@@ -26,16 +25,17 @@ const header_content = `
                     aria-haspopup="true" aria-expanded="false">New Horizons
                 </a>
                 <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/content/new-horizons/about.html">About New Horizons</a>
-                    <a class="dropdown-item" href="/content/new-horizons/read.html">Read New Horizons</a>
+                    <a class="dropdown-item" href="/content/new-horizons/new-horizons-home.html">About New Horizons</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/content/new-horizons/01-launch.html">Book One: Launch</a>
-                    <a class="dropdown-item" href="/content/new-horizons/02-midway.html">Book Two: Midway</a>
-                    <a class="dropdown-item" href="/content/new-horizons/03-arrival.html">Book Three: Arrival</a>
+                    <a class="dropdown-item" href="/content/new-horizons/01-chasing-stars/01-chasing-stars-home.html">Book One: Chasing Stars</a>
+                    <a class="dropdown-item" href="/content/new-horizons/02-midway/02-midway-home.html">Book Two: Midway</a>
+                    <a class="dropdown-item" href="/content/new-horizons/03-arrival/03-arrival-home.html">Book Three: Arrival</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/content/new-horizons/04-reunion.html">Book Four: Reunion</a>
-                    <a class="dropdown-item" href="/content/new-horizons/05-contact.html">Book Five: Contact</a>
-                    <a class="dropdown-item" href="/content/new-horizons/06-evolution.html">Book Six: Evolution</a>
+                    <a class="dropdown-item" href="/content/new-horizons/04-reunion/04-reunion-home.html">Book Four: Reunion</a>
+                    <a class="dropdown-item" href="/content/new-horizons/05-contact/05-contact-home.html">Book Five: Contact</a>
+                    <a class="dropdown-item" href="/content/new-horizons/06-evolution/06-evolution-home.html">Book Six: Evolution</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/content/new-horizons/00-launch/00-launch-home.html">Book Zero: Launch</a>
                 </div>
             </li>
             <li class="nav-item dropdown">

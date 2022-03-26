@@ -51,6 +51,10 @@ body {
     display: inline-block;
 }
 
+.btc {
+    max-width: 200px;
+}
+
 @media screen and (min-width: 1000px) {
     .jumbotron {
         margin-top: 1%;
@@ -68,6 +72,7 @@ body {
 
     .float_right_large {
         float: right;
+        margin-left: 3%;
     }
 
     .twitter_div {
@@ -89,12 +94,20 @@ body {
     .resume_large {
         display: none;
     }
+
+    .float_right_large {
+        margin-bottom: 3%
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
     .title_image {
         margin: 0 auto;
         width: 50%;
+    }
+    
+    .float_right_large {
+        margin-bottom: 3%
     }
 }
 
