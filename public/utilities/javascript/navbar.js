@@ -33,7 +33,7 @@ const header_content = `
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="/content/new-horizons/04-reunion/04-reunion-home.html">Book Four: Reunion</a>
                     <a class="dropdown-item" href="/content/new-horizons/05-contact/05-contact-home.html">Book Five: Contact</a>
-                    <a class="dropdown-item" href="/content/new-horizons/06-evolution/06-evolution-home.html">Book Six: Evolution</a>
+                    <a class="dropdown-item" href="/content/new-horizons/06-resurrection/06-resurrection-home.html">Book Six: Resurrection</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="/content/new-horizons/00-launch/00-launch-home.html">Book Zero: Launch</a>
                 </div>
