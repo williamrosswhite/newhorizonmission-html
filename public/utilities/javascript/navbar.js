@@ -48,6 +48,9 @@ const header_content = `
                     <a class="dropdown-item text-center" href="/content/dispatches-from-the-void/fun-stuff.html">Just for Fun</a>
                 </div>
             </li>
+            <div class="nav-item">
+                <a class="ml-onclick-form nav-link" href="javascript:void(0)" onclick="ml('show', '5UQDRD', true)">Subscribe</a>
+            </div>
         </ul>
     </div>
     </nav>

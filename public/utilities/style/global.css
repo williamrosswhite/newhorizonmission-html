@@ -17,6 +17,10 @@ body {
     size: 5pt;
 }
 
+a {
+    color: rgba(53, 148, 236, 0.9);
+}
+
 .jumbotron {
     background: rgba(221, 215, 255, 0.9);
     margin-left: 5%;
@@ -124,7 +128,7 @@ body {
 }
 
 .hyperlight {
-    color: rgb(105, 144, 180);
+    color: rgb(54, 118, 179);
 }
 
 .page-item {
